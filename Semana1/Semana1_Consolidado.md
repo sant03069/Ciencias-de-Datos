@@ -69,6 +69,8 @@ f(10) = 2·10 + 3 = 23
 |  5  |  13 |
 |  10 |  23 |
 
+<img width="1682" height="1231" alt="Captura de pantalla 2026-03-21 203518" src="https://github.com/user-attachments/assets/711dda0e-40cd-482e-9643-575571e3bc45" />
+
 
 ### Ejercicio 3: Escalas y Volúmenes (Big Data)
 **Solución:**
