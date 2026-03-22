@@ -69,3 +69,90 @@ El flujo de datos dentro de la empresa puede organizarse en las siguientes etapa
 
 5. **Visualización:**  
    Se presentan los resultados mediante dashboards que facilitan la toma de decisiones.
+
+## Coleccion de Datos
+
+### Análisis de la Base de Datos NoSQL
+
+Se diseñaron 4 colecciones principales:
+
+- **Usuarios**: información personal y preferencias  
+- **Productos**: datos del catálogo e inventario  
+- **Órdenes**: registro de compras realizadas  
+- **Reseñas**: opiniones de los clientes  
+
+La base de datos utiliza un modelo **NoSQL flexible**, lo que permite:
+- Agregar nuevos campos sin afectar la estructura  
+- Manejar grandes volúmenes de datos  
+- Relacionar información mediante identificadores (IDs)  
+
+También se usan datos semiestructurados como:
+- Arreglos (listas de productos o compras)  
+- Objetos anidados (dirección, inventario, detalles)  
+
+Este diseño facilita:
+- Escalabilidad  
+- Integración con aplicaciones  
+- Análisis del comportamiento del cliente
+
+```
+[
+{
+  "_id": "USR1001",
+  "nombre_completo": "Carlos Ramírez",
+  "email": "carlos.ramirez@email.com",
+  "telefono": "4427654321",
+  "ubicacion": {
+    "ciudad": "Querétaro",
+    "pais": "México"
+  },
+  "preferencias": {
+    "categorias_favoritas": ["Ropa deportiva", "Accesorios"],
+    "metodo_pago_preferido": "Tarjeta"
+  },
+  "compras_realizadas": ["ORD5001", "ORD5002"]
+},
+
+{
+  "_id": "PRD2001",
+  "nombre_producto": "Playera deportiva",
+  "marca": "Adidas",
+  "precio": 599.99,
+  "inventario": {
+    "disponibles": 120,
+    "almacen": "QRO-01"
+  },
+  "detalles": {
+    "color": "Negro",
+    "tallas": ["S", "M", "L", "XL"]
+  },
+  "categoria": "Ropa"
+},
+
+{
+  "_id": "ORD5001",
+  "usuario_id": "USR1001",
+  "fecha_compra": "2026-03-20",
+  "productos": [
+    {
+      "producto_id": "PRD2001",
+      "cantidad": 2,
+      "precio_unitario": 599.99
+    }
+  ],
+  "total": 1199.98,
+  "estado": "Entregado"
+},
+
+{
+  "_id": "REV3001",
+  "producto_id": "PRD2001",
+  "usuario_id": "USR1001",
+  "calificacion": 5,
+  "comentario": "Muy buena calidad y cómoda para entrenar",
+  "fecha": "2026-03-21"
+}
+]
+
+```
+
