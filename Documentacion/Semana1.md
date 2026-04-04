@@ -1,27 +1,26 @@
-# Semana 1: Fundamentos de Ciencia de Datos y Big Data
+# Semana 2: Arquitecturas de Datos y MongoDB
 
-## Fecha: 21/03/2026
+## Fecha: 03/04/2026
 
 ## Actividades Completadas
-- [x] Actividad 1.0: Configuración de Git y Repositorio
-- [x] Actividad 1.1: Conceptos Fundamentales
-- [x] Actividad 1.2: Casos de Uso
-- [x] Actividad 1.3: Entorno de Trabajo
-- [x] Actividad 1.4: Fuentes de Datos
+- [x] Actividad 2.1: Arquitecturas de Datos
+- [x] Actividad 2.2: Introducción a MongoDB
+- [x] Actividad 2.3: Operaciones CRUD
+- [x] Actividad 2.4: Modelado NoSQL
 
 ## Aprendido
-- Cómo configurar un repositorio y trabajar con Git
-- Qué es Kaggle y cómo explorar datasets
-- Cómo manejar CSV y archivos de datos en Python
-- Uso de pandas para leer y manipular datos
-- Conceptos básicos de ciencia de datos y Big Data
+- Comprendí las diferencias entre bases de datos relacionales y NoSQL
+- Aprendí a utilizar MongoDB para crear bases de datos y colecciones
+- Realicé operaciones CRUD (Create, Read, Update, Delete) con Python y MongoDB
+- Entendí cómo estructurar datos en formato JSON
+- Aprendí a modelar un sistema utilizando colecciones y relaciones en MongoDB
 
 ## Dudas o Bloqueos
-- Ninguna por ahora; todo funciona correctamente tras resolver permisos y rutas de archivos
+- Al inicio tuve dificultades para conectar Python con MongoDB
+- Hubo confusión al crear bases de datos en MongoDB Compass
 
 ## Commits Realizados
-- Initial commit: Estructura inicial
-- Semana1: Actividad 1.1 - Conceptos fundamentales
-- Semana1: Actividad 1.2 - Casos de uso
-- Semana1: Actividad 1.3 - Entorno de trabajo
-- Semana1: Actividad 1.4 - Fuentes de datos
+- Semana2: Actividad 2.1 - Arquitecturas de datos
+- Semana2: Actividad 2.2 - Introducción a MongoDB
+- Semana2: Actividad 2.3 - Operaciones CRUD
+- Semana2: Actividad 2.4 - Modelado NoSQL
