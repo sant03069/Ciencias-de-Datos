@@ -1,0 +1,42 @@
+{
+  "libros": [
+    {
+      "_id": "ObjectId",
+      "titulo": "El principito",
+      "autor_id": "ObjectId",
+      "categoria_id": "ObjectId",
+      "anio": 1943,
+      "disponible": true
+    }
+  ],
+  "usuarios": [
+    {
+      "_id": "ObjectId",
+      "nombre": "Juan Pérez",
+      "email": "juan@email.com",
+      "telefono": "4421234567"
+    }
+  ],
+  "prestamos": [
+    {
+      "_id": "ObjectId",
+      "usuario_id": "ObjectId",
+      "libro_id": "ObjectId",
+      "fecha_prestamo": "2026-04-03",
+      "fecha_devolucion": "2026-04-10"
+    }
+  ],
+  "autores": [
+    {
+      "_id": "ObjectId",
+      "nombre": "Gabriel García Márquez",
+      "nacionalidad": "Colombiana"
+    }
+  ],
+  "categorias": [
+    {
+      "_id": "ObjectId",
+      "nombre": "Ficción"
+    }
+  ]
+}
