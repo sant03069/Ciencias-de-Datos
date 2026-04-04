@@ -3,7 +3,7 @@
 ## Descripción: Investiga las diferentes arquitecturas de almacenamiento de datos.
 
 **Instrucciones:**
-1. Investiga qué son los Data Warehouses y Data Lakes
+1. Investiga qué son los Data Warehouses y Data Lakes.
 
 ### Data Warehouses
 Un data warehpuse es un repositorio unificado para todo los datos que recogen los diversos  sistemas de una empresa. El repositorio puede ser físico o lógico y hace hincapié en la captura de datos de diversas fuentes sobre todo para fines analiticos y de acceso, basicamente esto permite a los ejecutivos de negocios organizar, comprender y utilizar sus datos para tomar decisiones estratégicas.
