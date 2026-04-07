@@ -3,7 +3,7 @@
 ## Descripción: Investiga las diferentes arquitecturas de almacenamiento de datos.
 
 **Instrucciones:**
-1. Investiga qué son los Data Warehouses y Data Lakes.
+1. Investiga qué son los Data Warehouses y Data Lakes
 
 ### Data Warehouses
 Un data warehpuse es un repositorio unificado para todo los datos que recogen los diversos  sistemas de una empresa. El repositorio puede ser físico o lógico y hace hincapié en la captura de datos de diversas fuentes sobre todo para fines analiticos y de acceso, basicamente esto permite a los ejecutivos de negocios organizar, comprender y utilizar sus datos para tomar decisiones estratégicas.
@@ -25,5 +25,4 @@ Un data lake es un repositorio de almacenamiento que conntienen una gran cantida
 Un data mart es un sistema de almacén de datos que contiene informacion especifica de la unidad empresarial de una organizaciónz . Contiene una parte pequeña y especifica de los datos que la empresa almacena en un sistema de almacenamiento más grande,esto tambien da, datos resumidos que las partes interesadas clave pueden utilizar para tomar decisiones informadas rápidamente.Por por otro lado, con un data mart, los equipos puede acceder a los datos y obtener información más rápidamente, ya que no tienen que dedicar tiempo a bucar en un almacén de datos más complejo o consignar manualmente datos de diferentes origenes.
 
 4. Crea un diagrama mostrando las diferencias
-<img width="1536" height="1024" alt="Diagrama (Diferencia de Datas)" src="https://github.com/user-attachments/assets/a0c27c36-2c53-45f8-bd19-e4c4fd246029" />
 
