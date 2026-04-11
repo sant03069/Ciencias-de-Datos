@@ -1,26 +1,40 @@
-# Semana 2: Arquitecturas de Datos y MongoDB
-
-## Fecha: 03/04/2026
+# Semana 3: Python y Análisis Exploratorio
+## Fecha: 10/04/2026
 
 ## Actividades Completadas
-- [x] Actividad 2.1: Arquitecturas de Datos
-- [x] Actividad 2.2: Introducción a MongoDB
-- [x] Actividad 2.3: Operaciones CRUD
-- [x] Actividad 2.4: Modelado NoSQL
+- [x] Actividad 3.1: Refuerzo de Python
+- [x] Actividad 3.2: Carga y Exploración
+- [x] Actividad 3.3: Limpieza de Datos
+- [x] Actividad 3.4: Visualización Exploratoria
+- [x] Avance del Proyecto
 
-## Aprendido
-- Comprendí las diferencias entre bases de datos relacionales y NoSQL
-- Aprendí a utilizar MongoDB para crear bases de datos y colecciones
-- Realicé operaciones CRUD (Create, Read, Update, Delete) con Python y MongoDB
-- Entendí cómo estructurar datos en formato JSON
-- Aprendí a modelar un sistema utilizando colecciones y relaciones en MongoDB
+---
+
+## Hallazgos del Proyecto
+
+Durante el análisis exploratorio del dataset Titanic se identificaron los siguientes puntos clave:
+
+- La variable **sexo (sex)** tiene una fuerte influencia en la supervivencia, donde las mujeres presentan mayor probabilidad de sobrevivir.
+- La **clase del pasajero (pclass)** también es un factor importante, ya que los pasajeros de clases altas tuvieron mayor tasa de supervivencia.
+- La **edad (age)** muestra que los niños tuvieron mayor probabilidad de sobrevivir en comparación con adultos.
+- La variable **fare (tarifa)** presenta relación con la clase social, influyendo indirectamente en la supervivencia.
+- Se observaron correlaciones entre variables numéricas mediante el mapa de calor, destacando la relación entre tarifa y clase.
+
+---
 
 ## Dudas o Bloqueos
-- Al inicio tuve dificultades para conectar Python con MongoDB
-- Hubo confusión al crear bases de datos en MongoDB Compass
+
+- Se presentaron dificultades al momento de manejar conflictos en Git, especialmente con archivos CSV y notebooks.
+- Hubo problemas al cargar datasets debido a rutas incorrectas o archivos no encontrados.
+- Se complicó la ejecución de gráficos debido al orden del código y manejo de librerías.
+
+---
 
 ## Commits Realizados
-- Semana2: Actividad 2.1 - Arquitecturas de datos
-- Semana2: Actividad 2.2 - Introducción a MongoDB
-- Semana2: Actividad 2.3 - Operaciones CRUD
-- Semana2: Actividad 2.4 - Modelado NoSQL
+
+- Semana3: Consolidado completo  
+- Semana3: Actividad 3.1 - Refuerzo de Python
+- Semana3: Actividad 3.2 - Carga y exploración
+- Semana3: Actividad 3.3 - Limpieza de datos
+- Semana3: Actividad 3.4 - Visualización exploratoria
+- Avance del proyecto Titanic  
